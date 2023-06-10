@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.upstage.data-v-7db925c0 {
+  position: relative;
+  margin: 0;
+  height: 100%;
+}
+.listCont .emptyImg.data-v-7db925c0 {
+  top: 280rpx;
+}
+.listCont .emptyImg ._img.data-v-7db925c0 {
+  width: 378rpx;
+  height: 208rpx;
+}
+.listCont .emptyImg .text.data-v-7db925c0 {
+  margin-top: 30rpx;
+}
+.zhiding .selecetdate.data-v-7db925c0 {
+  position: fixed;
+  right: 15rpx;
+  top: -25rpx;
+  z-index: 1200;
+}
+.noItem.data-v-7db925c0 {
+  padding: 30rpx 0;
+}
+

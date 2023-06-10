@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "立即兑换",
+  "usingComponents": {
+    "u-number-box": "/uni_modules/uview-ui/components/u-number-box/u-number-box",
+    "u-button": "/uni_modules/uview-ui/components/u-button/u-button"
+  }
+}

@@ -1,0 +1,65 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+page.data-v-09957fa2 {
+  background-color: #fff;
+}
+.payPassword.data-v-09957fa2 {
+  position: relative;
+  height: 100vh;
+}
+.payPassword .numFont.data-v-09957fa2 {
+  height: 110rpx;
+  width: 16.6%;
+  border-radius: 20rpx;
+  margin-right: 10rpx;
+  text-align: center;
+  line-height: 100rpx;
+  font-size: 68rpx;
+  background: #F5F4F8;
+}
+.payPassword .numFont.data-v-09957fa2:nth-child(6) {
+  margin-right: 0;
+}
+.payPassword .fbig.data-v-09957fa2 {
+  padding-bottom: 20rpx;
+}
+.payPassword .shuruban.data-v-09957fa2 {
+  margin: 0 20rpx;
+  position: fixed;
+  bottom: 20rpx;
+  width: calc(100% - 40rpx);
+}
+.payPassword .viag.data-v-09957fa2 {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex: 1;
+}
+.payPassword .fsmall.data-v-09957fa2 {
+  width: 32%;
+  margin-right: 2%;
+  height: 98rpx;
+  background: rgba(255, 255, 255, 0.98);
+  border: 1px solid #e8e9ea;
+  margin-bottom: 10rpx;
+  line-height: 98rpx;
+  text-align: center;
+  font-size: 50rpx;
+  color: #353535;
+}
+.payPassword .fsmall.data-v-09957fa2:nth-child(3n) {
+  margin-right: 0;
+}
+.payPassword .shanchu.data-v-09957fa2 {
+  background: #eaebef;
+  width: 66%;
+}
+.payPassword .fsmall.data-v-09957fa2:nth-child(11) {
+  margin: 0 auto;
+}
+

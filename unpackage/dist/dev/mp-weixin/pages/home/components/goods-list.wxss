@@ -1,0 +1,119 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.goods-list.data-v-46c35752 {
+  position: relative;
+  margin-top: 20rpx;
+}
+.goods-list .title.data-v-46c35752 {
+  display: flex;
+  justify-content: space-between;
+  height: 180rpx;
+  margin: 0 25rpx;
+  padding: 0 20rpx;
+  padding-top: 30rpx;
+  background: linear-gradient(90deg, #d2e7fb, #f9faf5, #fee7c9);
+  border-radius: 14rpx 14rpx 0px 0px;
+}
+.goods-list .title .title-left.data-v-46c35752 {
+  font-size: 28rpx;
+  font-weight: 600;
+  position: relative;
+  color: #569ff0;
+}
+.goods-list .title .title-left .title-left.data-v-46c35752::before {
+  content: attr(text);
+  position: absolute;
+  z-index: 10;
+  color: #569ff0;
+  -webkit-mask: linear-gradient(to right, transparent, #2e72f7);
+}
+.goods-list .title .title-left .title-text.data-v-46c35752 {
+  z-index: 99;
+  left: 12rpx;
+  position: relative;
+}
+.goods-list .title .title-right.data-v-46c35752 {
+  color: #f7b862;
+}
+.goods-list .title .title-right .icon.data-v-46c35752 {
+  font-size: 24rpx;
+  margin-left: 12rpx;
+}
+.goods-list .product-list.data-v-46c35752 {
+  padding: 20rpx;
+  margin: 0 25rpx;
+  margin-top: -95rpx;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 20rpx rgba(255, 255, 255, 0.8) inset, 0 0 30rpx #dadbde;
+  border-radius: 14rpx;
+}
+.goods-list .product-list .product.data-v-46c35752 {
+  width: 228rpx;
+  z-index: 99;
+  padding-top: 38rpx;
+  width: 31%;
+  border-radius: 20rpx;
+  background-color: #fff;
+  margin: 0 0rpx 30rpx 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.goods-list .product-list .product image.data-v-46c35752 {
+  width: 168rpx;
+  height: 104rpx;
+}
+.goods-list .product-list .product .info-box.data-v-46c35752 {
+  padding: 10rpx 40rpx 32rpx;
+}
+.goods-list .product-list .product .name.data-v-46c35752 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 24rpx;
+}
+.goods-list .product-list .product .price.data-v-46c35752 {
+  font-size: 10rpx;
+  line-height: 30rpx;
+  margin-bottom: 10rpx;
+}
+.goods-list .product-list .product .btn.data-v-46c35752 {
+  background-color: #fff7ef;
+  border-radius: 22rpx;
+  padding-left: 20rpx;
+  line-height: 40rpx;
+}
+.goods-list .product-list .product .btn .text.data-v-46c35752 {
+  color: #fd940a;
+}
+.goods-list .product-list .product .btn .jiantou.data-v-46c35752 {
+  display: inline-block;
+  color: #fff;
+  margin-left: 14rpx;
+  margin-right: 10rpx;
+  height: 24rpx;
+  width: 24rpx;
+  border-radius: 50%;
+  background: linear-gradient(90deg, #f8ce5a, #f8ac35);
+  box-shadow: 0px 2px 10px 0px rgba(248, 174, 56, 0.4);
+}
+.goods-list .product-list .product .btn .jiantou .icon-jiantouyou.data-v-46c35752 {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  line-height: 24rpx;
+}
+.goods-list .product-list.data-v-46c35752::after {
+  content: "";
+  width: 228rpx;
+}
+

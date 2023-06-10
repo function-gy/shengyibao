@@ -1,0 +1,1 @@
+<view class="my-help-details data-v-988a83e4"><view class="card-box bgfff m-b-10 br10 data-v-988a83e4"><view class="f20 m-b-10 fw500 data-v-988a83e4">{{''+details.title+''}}</view><view class="f13 data-v-988a83e4" style="line-height:1.6;">{{''+details.answer+''}}</view></view></view>

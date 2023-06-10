@@ -1,0 +1,69 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.numFont.data-v-223525c8 {
+  height: 110rpx;
+  width: 16%;
+  border: 2rpx solid #e8e9ea;
+  border-radius: 10rpx;
+  margin-right: 10rpx;
+  text-align: center;
+  line-height: 100rpx;
+  font-size: 52rpx;
+}
+.numFont.data-v-223525c8:nth-child(6) {
+  margin-right: 0;
+}
+.fbig.data-v-223525c8 {
+  padding-bottom: 20rpx;
+}
+.shuruban.data-v-223525c8 {
+  display: flex;
+  justify-content: left;
+  margin: 0 20rpx;
+}
+.viag.data-v-223525c8 {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex: 1;
+}
+.fsmall.data-v-223525c8 {
+  width: 32%;
+  margin-right: 2%;
+  height: 98rpx;
+  background: rgba(255, 255, 255, 0.98);
+  border: 1px solid #e8e9ea;
+  margin-bottom: 10rpx;
+  line-height: 98rpx;
+  text-align: center;
+  font-size: 50rpx;
+  color: #353535;
+}
+.fsmall.data-v-223525c8:nth-child(3n) {
+  margin-right: 0;
+}
+.fsmall.data-v-223525c8:nth-child(10) {
+  margin: 0 auto;
+}
+.shanchu.data-v-223525c8 {
+  width: 176rpx;
+  height: 206rpx;
+  background: #eaebef;
+  line-height: 206rpx;
+  text-align: center;
+  margin-left: 10rpx;
+}
+.shanchu.data-v-223525c8:nth-child(2) {
+  margin-top: 10rpx;
+}
+.tishileft.data-v-223525c8 {
+  font-size: 24rpx;
+  margin-top: 24rpx;
+  color: #d60606;
+}
+

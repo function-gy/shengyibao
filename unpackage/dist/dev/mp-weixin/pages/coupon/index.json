@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "卡券列表",
+  "usingComponents": {
+    "card": "/pages/coupon/common/card"
+  }
+}

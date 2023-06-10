@@ -1,0 +1,18 @@
+{
+  "navigationBarTitleText": "卡券核销",
+  "usingComponents": {
+    "page1": "/pages/app/coupon/couponInfo/coupon/page1",
+    "page2": "/pages/app/coupon/couponInfo/coupon/page2",
+    "page3": "/pages/app/coupon/couponInfo/coupon/page3",
+    "page4": "/pages/app/coupon/couponInfo/coupon/page4",
+    "page5": "/pages/app/coupon/couponInfo/coupon/page5",
+    "page6": "/pages/app/coupon/couponInfo/coupon/page6",
+    "page7": "/pages/app/coupon/couponInfo/coupon/page7",
+    "page8": "/pages/app/coupon/couponInfo/coupon/page8",
+    "page9": "/pages/app/coupon/couponInfo/coupon/page9",
+    "page10": "/pages/app/coupon/couponInfo/coupon/page10",
+    "page11": "/pages/app/coupon/couponInfo/coupon/page11",
+    "page12": "/pages/app/coupon/couponInfo/coupon/page12",
+    "page13": "/pages/app/coupon/couponInfo/coupon/page13"
+  }
+}

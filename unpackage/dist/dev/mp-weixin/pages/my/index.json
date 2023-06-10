@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "我的",
+  "usingComponents": {
+    "u-loading-page": "/uni_modules/uview-ui/components/u-loading-page/u-loading-page",
+    "user-top": "/pages/my/components/userTop",
+    "jifen": "/pages/my/components/jifen",
+    "dpkq": "/pages/my/components/dpkq",
+    "order": "/pages/my/components/order",
+    "more": "/pages/my/components/more"
+  }
+}

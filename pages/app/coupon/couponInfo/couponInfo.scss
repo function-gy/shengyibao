@@ -1,0 +1,119 @@
+/* 第一部分 */
+	.toppart {
+		border-radius: 10rpx 10rpx 0 0;
+		background-color: #fff;
+		text-align: center;
+		position: relative;
+		padding-bottom: 40rpx;
+		bottom: -2rpx;
+	}
+	
+	.code_name {
+		color: var(--couponInfoBgc);
+	}
+	
+	.logo {
+		position: absolute;
+		top: -60rpx;
+		left: 50%;
+		margin-left: -60rpx;
+		z-index: 9;
+		width: 120rpx;
+		height: 120rpx;
+		border-radius: 50%;
+	}
+	
+	.brand {
+		position: relative;
+		z-index: 2;
+		line-height: 40rpx;
+		padding-top: 80rpx;
+		font-weight: 600;
+		display: block;
+		margin: 0 auto 12rpx;
+	}
+	
+	.midpart {
+		background-color: #f9f9f9;
+		border-radius: 20rpx;
+		width: 530rpx;
+		padding: 20rpx 10rpx 20rpx;
+		margin: 0 auto;
+	}
+	
+	.copybtn_wrap {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 530rpx;
+		box-sizing: border-box;
+		.copybtn2 {
+			background-color: var(--couponInfoBgc-lighten-2);
+			width: 250rpx;
+			line-height: 60rpx;
+			border-radius: 30rpx;
+			color: var(--couponInfoBgc);
+			font-size: 30rpx;
+			margin: 0 10rpx;
+		}
+	}
+	
+	.yourMaTip {
+		font-size: 24rpx;
+		line-height: 40rpx;
+		margin-top: 30rpx;
+	}
+	
+	.yourMa {
+		width: 100%;
+		font-size: 36rpx;
+		line-height: 60rpx;
+		word-wrap: break-word;
+		word-break: break-all;
+		margin-bottom: 10rpx;
+	}
+	
+	.dot_line {
+		display: block;
+		width: 100%;
+		padding: 14rpx 0px;
+		position: relative;
+		background-color: #fff;
+		.u-divider {
+			margin: 0;
+		}
+		.round-left,.round-right{
+				height: 26rpx;
+				width: 26rpx;
+				border-radius: 50%;
+				z-index: 99;
+				background-color:var(--couponInfoBgc);
+				position: absolute;
+				top: 0rpx;
+		}
+		.round-left {
+			left: -13rpx;
+		}
+		.round-right {
+			right: -13rpx;
+		}
+	}
+	
+	.botpart {
+		padding: 40rpx 30rpx 100rpx;
+		border-radius: 0 0 10rpx 10rpx;
+		background-color: #fff;
+		position: relative;
+		top: -2rpx;
+	}
+	
+	.usetip {
+	}
+	
+	.useInfoTip {
+		font-size: 30rpx;
+	}
+	
+	.wxparseInfo {
+		line-height: 2;
+	}

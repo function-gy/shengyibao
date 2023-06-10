@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "待支付",
+  "usingComponents": {
+    "u-loading-page": "/uni_modules/uview-ui/components/u-loading-page/u-loading-page",
+    "u-radio-group": "/uni_modules/uview-ui/components/u-radio-group/u-radio-group",
+    "u-radio": "/uni_modules/uview-ui/components/u-radio/u-radio",
+    "pay-password": "/pages/comm/payPassword/index"
+  }
+}

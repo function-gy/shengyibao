@@ -1,0 +1,49 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.couContent.data-v-324298f4 {
+  padding: 34rpx 0 0 0;
+}
+.title.data-v-324298f4 {
+  margin-left: 31rpx;
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #353535;
+  margin-bottom: 33rpx;
+}
+.itemBox.data-v-324298f4 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.itemBox.data-v-324298f4:after {
+  content: "";
+  width: 138rpx;
+  height: 0;
+  visibility: hidden;
+}
+.couponItem.data-v-324298f4 {
+  margin-bottom: 34rpx;
+  width: 172rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+.couponItem image.data-v-324298f4 {
+  width: 85rpx;
+  height: 85rpx;
+  margin-bottom: 19rpx;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.name.data-v-324298f4 {
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #353535;
+}
+

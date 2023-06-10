@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "卡券列表",
+  "usingComponents": {
+    "coupon-list": "/pages/app/coupon/common/couponList",
+    "search-box2": "/components/searchBox2"
+  }
+}

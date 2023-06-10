@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "我的订单",
+  "usingComponents": {
+    "card-list": "/pages/my/myAllDetail/common/cardList",
+    "search-box2": "/components/searchBox2"
+  }
+}

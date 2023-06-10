@@ -1,0 +1,153 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+page.data-v-4586967a {
+  background-color: #fff;
+  height: 100%;
+}
+.fudong.data-v-4586967a {
+  width: 70%;
+  height: 15rpx;
+  background: linear-gradient(268deg, #feffb05e, var(--logincolor));
+  margin: auto;
+  border-radius: 40rpx;
+  position: absolute;
+  z-index: 1;
+  bottom: -5rpx;
+  left: 15%;
+}
+.fudong2.data-v-4586967a {
+  width: 20rpx;
+  height: 20rpx;
+  background: linear-gradient(82deg, #ffffff, var(--logincolor-lighten-1));
+  margin: auto;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 1;
+  left: 0px;
+  bottom: 0px;
+}
+.dltab.data-v-4586967a {
+  margin: 0 20rpx;
+  font-size: 32rpx;
+  color: #333;
+  text-align: center;
+  position: relative;
+  width: 200rpx;
+}
+.dltabblack.data-v-4586967a {
+  margin: 0 20rpx;
+  font-size: 32rpx;
+  color: #999;
+  text-align: center;
+  position: relative;
+  width: 200rpx;
+}
+.header.data-v-4586967a {
+  padding-top: 113rpx;
+  margin-left: 60rpx;
+}
+.header ._h1.data-v-4586967a {
+  font-size: 50rpx;
+  font-weight: 500;
+  color: #353535;
+  margin-bottom: 34rpx;
+}
+.header text.data-v-4586967a {
+  font-size: 28rpx;
+  font-weight: 400;
+  color: #353535;
+}
+.form.data-v-4586967a {
+  margin-top: 89rpx;
+}
+.form.data-v-4586967a .username,
+.form.data-v-4586967a .password {
+  width: 646rpx;
+  height: 98rpx;
+  background: #F5F4F8;
+  border-radius: 46px;
+  margin: 0 auto;
+  display: flex;
+  padding-right: 39rpx;
+}
+.form.data-v-4586967a .username input,
+.form.data-v-4586967a .password input {
+  width: 70%;
+  height: 100%;
+  margin-left: 39rpx;
+}
+.form.data-v-4586967a .username text,
+.form.data-v-4586967a .password text {
+  font-size: 28rpx;
+  line-height: 98rpx;
+  color: var(--logincolor);
+  float: right;
+  text-align: end;
+  display: inline-block;
+  width: 180rpx;
+  height: 26rpx;
+}
+.form.data-v-4586967a .username .int1,
+.form.data-v-4586967a .password .int1 {
+  width: 85% !important;
+}
+.form.data-v-4586967a .password2 {
+  width: 646rpx;
+  border-radius: 46px;
+  margin: 0 auto;
+  display: flex;
+  padding-right: 39rpx;
+  margin-top: 18rpx;
+  font-size: 24rpx;
+  padding-left: 40rpx;
+}
+.form.data-v-4586967a .password {
+  margin-top: 38rpx;
+}
+.btn.data-v-4586967a {
+  width: 646rpx;
+  height: 98rpx;
+  border-radius: 46rpx;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 54rpx;
+  font-size: 34rpx;
+  color: #8A8A8A;
+}
+.xieyi.data-v-4586967a {
+  width: 100%;
+  margin-top: 60rpx;
+  text-align: center;
+}
+.colorPrimary.data-v-4586967a {
+  color: var(--logincolor);
+}
+.u-checkbox-group.data-v-4586967a {
+  display: inline-block;
+}
+.dis-btn-this.active.data-v-4586967a {
+  background: linear-gradient(91deg, var(--logincolor-lighten-1), var(--logincolor));
+  box-shadow: 0rpx 10rpx 20rpx 0rpx var(--logincolor-lighten-1);
+  color: #FFFFFF;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+.dis-btn-this.data-v-4586967a {
+  background: linear-gradient(91deg, var(--logincolor-lighten-1), var(--logincolor));
+  box-shadow: 0rpx 10rpx 20rpx 0rpx var(--logincolor-lighten-1);
+  color: #FFFFFF;
+  border-radius: 44rpx;
+  padding: 25rpx;
+  border: none;
+  text-align: center;
+  font-size: 32rpx;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+}
+

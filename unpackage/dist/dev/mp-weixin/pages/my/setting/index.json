@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "账户设置",
+  "usingComponents": {
+    "u-modal": "/uni_modules/uview-ui/components/u-modal/u-modal"
+  }
+}

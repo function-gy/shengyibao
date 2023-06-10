@@ -1,0 +1,50 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.searchBtn.data-v-24c4b98a {
+  margin-right: 30rpx;
+}
+.uni-searchbar.data-v-24c4b98a {
+  padding: 16rpx 30rpx;
+}
+.uni-searchbar .uni-searchbar__box.data-v-24c4b98a {
+  background: #f5f4f8;
+  height: 60rpx;
+}
+.uni-searchbar__box-icon-search .uni-icons.data-v-24c4b98a {
+  font-size: 26rpx !important;
+  color: var(--logincolor) !important;
+}
+.uni-searchbar__box-search-input.data-v-24c4b98a {
+  font-size: 24rpx;
+  color: var(--logincolor);
+  text-align: left;
+}
+.uni-searchbar__box-icon-clear .uni-icons.data-v-24c4b98a {
+  font-size: 26rpx !important;
+}
+.history-box.data-v-24c4b98a {
+  padding: 30rpx;
+}
+.history-box .top .icon.data-v-24c4b98a {
+  font-size: 32rpx;
+  color: #e4e4e4;
+}
+.history-box .content.data-v-24c4b98a {
+  display: flex;
+  flex-wrap: wrap;
+}
+.history-box .content .item.data-v-24c4b98a {
+  background: #f5f4f8;
+  border-radius: 8rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  overflow: hidden;
+  margin: 20rpx 20rpx 0rpx 0rpx;
+  padding: 0 20rpx;
+  font-size: 26rpx;
+}
+

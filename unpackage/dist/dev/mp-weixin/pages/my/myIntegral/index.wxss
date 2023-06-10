@@ -1,0 +1,88 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+page.data-v-771098d6 {
+  background-color: #f8f8f8;
+}
+.my-integral.data-v-771098d6 {
+  padding-bottom: 140rpx;
+}
+.bigImg.data-v-771098d6 {
+  background-image: url("https://shengyibao.tongkask.com/storage/tksk_mall_img/user/jifen-bg@2x.png");
+  height: 294rpx;
+  background-size: 750rpx 294rpx;
+}
+.residue.data-v-771098d6 {
+  position: absolute;
+  top: 50rpx;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  text-align: center;
+}
+.residuenum.data-v-771098d6 {
+  font-size: 60rpx;
+  font-family: MiSans;
+  font-weight: 500;
+  color: #353535;
+}
+.btnBox.data-v-771098d6 {
+  width: 690rpx;
+  height: 119rpx;
+  margin: 0 auto;
+  background: #ffffff;
+  box-shadow: 0rpx 0rpx 34rpx 6rpx rgba(122, 122, 122, 0.1);
+  border-radius: 20rpx;
+  margin-top: -110rpx;
+  margin-bottom: 30rpx;
+  display: flex;
+}
+.jfBox.data-v-771098d6 {
+  width: 690rpx;
+  margin: 0 auto;
+  padding: 48rpx 30rpx 30rpx 30rpx;
+}
+.datePick.data-v-771098d6 {
+  position: absolute;
+  top: 415rpx;
+  right: 60rpx;
+}
+.selBtn > view.data-v-771098d6 {
+  display: inline-block;
+  margin-right: 70rpx;
+  position: relative;
+  width: 68rpx;
+}
+.border.data-v-771098d6 {
+  position: absolute;
+  top: 24rpx;
+  left: 0;
+}
+.solid.data-v-771098d6 {
+  display: inline-block;
+  width: 48rpx;
+  height: 8rpx;
+  background: linear-gradient(91deg, var(--logincolor-lighten-1), var(--logincolor));
+  border-radius: 8rpx;
+  margin-right: 6rpx;
+}
+.point.data-v-771098d6 {
+  display: inline-block;
+  width: 8rpx;
+  height: 8rpx;
+  border-radius: 50%;
+  background-color: var(--logincolor);
+}
+.jfItem.data-v-771098d6 {
+  height: 130rpx;
+  border-bottom: 2rpx solid #f3f3f3;
+  box-sizing: border-box;
+}
+.tabItem image.data-v-771098d6 {
+  width: 43rpx;
+  height: 37rpx;
+}
+

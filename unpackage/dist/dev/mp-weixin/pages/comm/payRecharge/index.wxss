@@ -1,0 +1,67 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.password.data-v-67e19228 {
+  width: 646rpx;
+  height: 98rpx;
+  background: #F5F4F8;
+  border-radius: 20rpx;
+  display: flex;
+  padding-right: 39rpx;
+}
+.password input.data-v-67e19228 {
+  width: 70%;
+  height: 100%;
+  margin-left: 39rpx;
+}
+.password text.data-v-67e19228 {
+  font-size: 28rpx;
+  line-height: 98rpx;
+  color: var(--logincolor);
+  float: right;
+  text-align: end;
+  display: inline-block;
+  width: 180rpx;
+  height: 26rpx;
+}
+.password .int1.data-v-67e19228 {
+  width: 85% !important;
+}
+.payRecharge.data-v-67e19228 {
+  padding: 30rpx;
+}
+.label.data-v-67e19228 {
+  color: #9B9B9B;
+  font-size: 32rpx;
+  margin-right: 10px;
+}
+.content.data-v-67e19228 {
+  color: #333333;
+  font-size: 32rpx;
+}
+.u-input.input-bottom.data-v-67e19228 {
+  border: 1px solid #F5F4F8 !important;
+  background: #F5F4F8;
+  margin-top: 30rpx;
+  padding: 20rpx 30rpx !important;
+  font-size: 32rpx;
+}
+.u-input.input-bottom-hover.data-v-67e19228  {
+  box-sizing: border-box;
+  background: #F5F9FF;
+  border: 1px solid #735AEE !important;
+}
+.u-input.input-bottom-hover.data-v-67e19228 .u-input__content .u-input__content__field-wrapper .uni-input-wrapper {
+  color: #5242E8;
+  font-size: 32rpx;
+}
+.bottom-box.data-v-67e19228 {
+  height: 88rpx;
+  width: calc(100% - 60rpx);
+  position: fixed;
+  bottom: 30rpx;
+}
+

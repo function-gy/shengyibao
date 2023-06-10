@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "",
+  "usingComponents": {
+    "home": "/pages/home/home",
+    "mall": "/pages/mall/index",
+    "coupon": "/pages/coupon/index",
+    "my": "/pages/my/index"
+  }
+}

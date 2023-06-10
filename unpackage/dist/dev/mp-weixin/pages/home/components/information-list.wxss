@@ -1,0 +1,35 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.swiper-banner.data-v-30ca57c1 {
+  margin-top: 10rpx;
+  padding: 0 25rpx;
+  height: 66rpx;
+}
+.swiper-banner.data-v-30ca57c1 .swiper-box {
+  background-color: #fff;
+  position: relative;
+  border-radius: 14rpx;
+}
+.swiper-banner.data-v-30ca57c1 .swiper-box uni-swiper {
+  height: 66rpx;
+  padding-right: 24rpx;
+}
+.swiper-banner.data-v-30ca57c1 .swiper-box uni-swiper-item {
+  height: 66rpx !important;
+  line-height: 66rpx !important;
+  font-size: 24rpx;
+  justify-content: space-between;
+  align-items: center;
+}
+.red_point.data-v-30ca57c1 {
+  width: 12rpx;
+  height: 12rpx;
+  background: #EA3E40;
+  border-radius: 50%;
+  margin-left: 5rpx;
+}
+

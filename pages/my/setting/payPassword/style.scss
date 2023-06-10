@@ -1,0 +1,66 @@
+.payPassword {
+		position: relative;
+		height: 100vh;
+		.numFont {
+			height: 110rpx;
+			width: 16.6%;
+			border-radius: 20rpx;
+			margin-right: 10rpx;
+			text-align: center;
+			line-height: 100rpx;
+			font-size: 68rpx;
+			background: #F5F4F8;
+		}
+		
+		.numFont:nth-child(6) {
+			margin-right: 0;
+		}
+		
+		.fbig {
+			padding-bottom: 20rpx;
+		}
+		.shuruban {
+			// display: flex;
+			// justify-content: left;
+			margin: 0 20rpx;
+			position: fixed;
+			bottom: 20rpx;
+			width: calc(100% - 40rpx);
+		}
+		
+		.viag {
+			background-color: #fff;
+			display: flex;
+			justify-content: space-between;
+			flex-wrap: wrap;
+			flex: 1;
+		}
+		
+		.fsmall {
+			width: 32%;
+			margin-right: 2%;
+			height: 98rpx;
+			background: rgba(255, 255, 255, 0.98);
+			border: 1px solid #e8e9ea;
+			margin-bottom: 10rpx;
+			line-height: 98rpx;
+			text-align: center;
+			font-size: 50rpx;
+			color: #353535;
+		}
+		
+		.fsmall:nth-child(3n) {
+			margin-right: 0;
+		}
+		
+		.shanchu {
+			background: #eaebef;
+			width: 66%;
+		}
+		
+		.fsmall:nth-child(11) {
+			margin: 0 auto;
+		}
+	}
+
+	

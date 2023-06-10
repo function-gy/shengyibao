@@ -1,0 +1,1 @@
+<view class="informationBox f18 data-v-0bc3010c"><view class="f20 m-b-15 data-v-0bc3010c">{{title}}</view><view class="f14 m-b-15 data-v-0bc3010c">{{createTime}}</view><view class="htmlimg width100 data-v-0bc3010c"><rich-text nodes="{{content}}"></rich-text></view></view>

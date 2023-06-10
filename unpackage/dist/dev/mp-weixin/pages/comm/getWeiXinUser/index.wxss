@@ -1,0 +1,56 @@
+
+.about {
+	padding: 120rpx 40rpx 0;
+}
+.about .logo image {
+	display: block;
+	width: 160rpx;
+	height: 160rpx;
+	margin: 0 auto 35rpx;
+	border-radius: 30rpx;
+}
+.logo {
+	text-align: center;
+}
+.about .logo view {
+	font-size: 36rpx;
+	color: #333;
+}
+.foot {
+	position: fixed;
+	left: 0;
+	right: 0;
+	text-align: center;
+	bottom: 40rpx;
+}
+.login {
+	width: 600rpx !important;
+	height: 86rpx !important;
+	line-height: 86rpx !important;
+	background: linear-gradient(91deg, var(--logincolor-lighten-1), var(--logincolor));
+	font-size: 32rpx;
+	border-radius: 10rpx !important;
+	border: none;
+	color: #fff;
+	margin: 0 auto !important;
+	position: fixed;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	        transform: translateX(-50%);
+	bottom: 514rpx;
+}
+.zanbu {
+	font-size: 32rpx;
+	color: #999999;
+	/* margin: 45rpx 0 80rpx; */
+	position: fixed;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	        transform: translateX(-50%);
+	bottom: 436rpx;
+}
+.copy {
+	font-size: 20rpx;
+	color: #9b9b9b;
+}
+

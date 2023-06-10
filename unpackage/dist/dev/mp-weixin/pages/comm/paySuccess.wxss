@@ -1,0 +1,35 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.paySuccess.data-v-522f86b5 {
+  padding: 80rpx 120rpx 80rpx;
+}
+.paySuccess .result-img ._img.data-v-522f86b5 {
+  width: 130rpx;
+  height: 130rpx;
+}
+.paySuccess .info.data-v-522f86b5 {
+  line-height: 60px;
+}
+.paySuccess .info2.data-v-522f86b5 {
+  line-height: 60rpx;
+  color: #FF8B0B;
+}
+.paySuccess .btn-box.data-v-522f86b5 {
+  margin-top: 100rpx;
+}
+.paySuccess .btn-box .u-button.data-v-522f86b5 {
+  height: 72rpx;
+  line-height: 72rpx;
+}
+.paySuccess .btn-box .u-button + .u-button.data-v-522f86b5 {
+  margin-left: 36rpx;
+}
+.paySuccess .btn-box .u-button--primary.u-button--circle.data-v-522f86b5 {
+  background: linear-gradient(90deg, #F8CE5A, #F8AC35);
+  border: none;
+}
+

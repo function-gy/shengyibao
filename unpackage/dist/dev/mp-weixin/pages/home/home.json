@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "",
+  "usingComponents": {
+    "u-popup": "/uni_modules/uview-ui/components/u-popup/u-popup",
+    "banner": "/pages/home/components/swiper-banner",
+    "jgq": "/pages/home/components/category-list",
+    "cards": "/pages/home/components/goods-list",
+    "guanggao": "/pages/home/components/swiper-activity",
+    "message": "/pages/home/components/information-list"
+  }
+}

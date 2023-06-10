@@ -1,0 +1,244 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uni_modules/uview-ui/components/u-$1/u-$1.vue"
+	},
+	// "condition": { //模式配置，仅开发期间生效
+	// 	"current": 0, //当前激活的模式(list 的索引项)
+	// 	"list": [{
+	// 		"name": "test", //模式名称
+	// 		"path": "pages/componentsC/test/index", //启动页面，必选
+	// 		"query": "uuid=c4bba940-f69e-11ea-a419-6bafda9d095e&__id__=1" //启动参数，在页面的onLoad函数里面得到
+	// 	}]
+	// },
+	"pages": [
+
+		{
+			"path": "pages/tabbar/tabbar",
+			"style": {
+				"navigationBarTitleText": "",
+				// #ifdef H5
+				"navigationStyle": "custom",
+				// #endif
+				"app-plus": {
+					"titleNView": { //  隐藏当前页面的返回按钮
+						"autoBackButton": false // 禁用原生导航栏
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/comm/wechatem",
+			"style": {
+				"navigationBarTitleText": "微信授权"
+			}
+		},
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/mall/index",
+			"style": {
+				"navigationBarTitleText": "商城"
+			}
+		},
+		{
+			"path": "pages/coupon/index",
+			"style": {
+				"navigationBarTitleText": "卡券列表"
+			}
+		},
+		{
+			"path": "pages/my/index",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/my/help/index",
+			"style": {
+				"navigationBarTitleText": "帮助中心"
+			}
+		},
+		{
+			"path": "pages/my/help/details",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/home/components/webView",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+
+		{
+			"path": "pages/home/components/information",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/login/index",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/login/contractInfo",
+			"style": {				
+				"app-plus": {
+					"bounce": "none",
+					"softinputNavBar": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/comm/404",
+			"style": {
+				"navigationBarTitleText": "404出错"
+			}
+		},
+		{
+			"path": "pages/comm/payCheckstand/index",
+			"style": {
+				"navigationBarTitleText": "待支付"
+			}
+		},
+		{
+			"path": "pages/comm/paySuccess",
+			"style": {
+				"navigationBarTitleText": "支付成功"
+			}
+		},
+		{
+			"path": "pages/comm/payRank/orderOne",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		},
+		{
+			"path": "pages/comm/payRecharge/index",
+			"style": {
+				"navigationBarTitleText": "余额充值"
+			}
+		},
+		{
+			"path": "pages/comm/getWeiXinUser/index",
+			"style": {
+				"navigationBarTitleText": "微信授权"
+			}
+		}
+	],
+	"subPackages": [{
+			"root": "pages/app/coupon",
+			"pages": [{
+				"path": "couponDetail",
+				"style": {
+					"navigationBarTitleText": "卡券详情"
+				}
+			}]
+		},
+		{
+			"root": "pages/app/coupon",
+			"pages": [{
+				"path": "couponCategory",
+				"style": {
+					"navigationBarTitleText": "卡券列表"
+				}
+			}, {
+				"path": "couponInfo/index",
+				"style": {
+					"navigationBarTitleText": "卡券核销"
+				}
+			}]
+		},
+		{
+			"root": "pages/app/coupon",
+			"pages": [{
+				"path": "couponOrderConfirm",
+				"style": {
+					"navigationBarTitleText": "立即兑换"
+				}
+			}]
+		},
+		{
+			"root": "pages/my/myIntegral",
+			"pages": [{
+				"path": "index",
+				"style": {
+					"navigationBarTitleText": "我的积分"
+				}
+			}]
+		},
+		{
+			"root": "pages/my/myAllDetail",
+			"pages": [{
+				"path": "index",
+				"style": {
+					"navigationBarTitleText": "我的订单"
+				}
+			}]
+		},
+		{
+			"root": "pages/my/orderList",
+			"pages": [{
+				"path": "coupon/orderList",
+				"style": {
+					"navigationBarTitleText": "卡券订单"
+				}
+			}
+		]
+		},
+		{
+			"root": "pages/my/setting",
+			"pages": [{
+				"path": "index",
+				"style": {
+					"navigationBarTitleText": "账户设置"
+				}
+			}, {
+				"path": "payPassword/edit",
+				"style": {
+					"navigationBarTitleText": "修改支付密码"
+				}
+			}, {
+				"path": "payPassword/add",
+				"style": {
+					"navigationBarTitleText": "添加支付密码"
+				}
+			}, {
+				"path": "payPassword/forget",
+				"style": {
+					"navigationBarTitleText": "忘记支付密码"
+				}
+			}]
+		}
+	],
+	"globalStyle": {
+
+		"rpxCalcMaxDeviceWidth": 3000,
+		"rpxCalcBaseDeviceWidth": 319,
+		"dynamicRpx": true,
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "生意宝",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF"
+	// #ifdef H5
+		,
+	"navigationStyle": "custom"
+	// #endif
+	
+	}
+	// "tabBar": {
+	// 	"color": "#909399",
+	// 	"selectedColor": "#303133",
+	// 	"backgroundColor": "#FFFFFF",
+	// 	"borderStyle": "black",
+	// 	"list": [
+	// 	]
+	// }
+}

@@ -1,0 +1,81 @@
+{
+  "pages": [
+    "pages/tabbar/tabbar",
+    "pages/comm/wechatem",
+    "pages/home/home",
+    "pages/mall/index",
+    "pages/coupon/index",
+    "pages/my/index",
+    "pages/my/help/index",
+    "pages/my/help/details",
+    "pages/home/components/webView",
+    "pages/home/components/information",
+    "pages/login/index",
+    "pages/login/contractInfo",
+    "pages/comm/404",
+    "pages/comm/payCheckstand/index",
+    "pages/comm/paySuccess",
+    "pages/comm/payRank/orderOne",
+    "pages/comm/payRecharge/index",
+    "pages/comm/getWeiXinUser/index"
+  ],
+  "subPackages": [
+    {
+      "root": "pages/app/coupon",
+      "pages": [
+        "couponDetail",
+        "couponCategory",
+        "couponInfo/index",
+        "couponOrderConfirm"
+      ]
+    },
+    {
+      "root": "pages/my/myIntegral",
+      "pages": [
+        "index"
+      ]
+    },
+    {
+      "root": "pages/my/myAllDetail",
+      "pages": [
+        "index"
+      ]
+    },
+    {
+      "root": "pages/my/orderList",
+      "pages": [
+        "coupon/orderList"
+      ]
+    },
+    {
+      "root": "pages/my/setting",
+      "pages": [
+        "index",
+        "payPassword/edit",
+        "payPassword/add",
+        "payPassword/forget"
+      ]
+    }
+  ],
+  "window": {
+    "rpxCalcMaxDeviceWidth": 3000,
+    "rpxCalcBaseDeviceWidth": 319,
+    "dynamicRpx": true,
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "生意宝",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#FFFFFF"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "requiredPrivateInfos": [
+    "getLocation",
+    "chooseLocation"
+  ],
+  "usingComponents": {
+    "smjloading": "/components/smj-loading/index"
+  }
+}

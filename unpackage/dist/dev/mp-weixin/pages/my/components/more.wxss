@@ -1,0 +1,36 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+view.data-v-be8d39f8,
+text.data-v-be8d39f8 {
+  padding: 0;
+  margin: 0;
+}
+.bgPointSet.data-v-be8d39f8 {
+  left: 46rpx;
+  top: -6rpx;
+}
+.orderBox.data-v-be8d39f8 {
+  padding-top: 32rpx;
+  padding-left: 25rpx;
+  padding-right: 25rpx;
+  height: 203rpx;
+}
+.orderBox .listBox .item.data-v-be8d39f8 {
+  position: relative;
+  flex-direction: column;
+  width: 138rpx;
+}
+.listBox.data-v-be8d39f8:after {
+  content: "";
+  width: 138rpx;
+  height: 0;
+  visibility: hidden;
+}
+.img.data-v-be8d39f8 {
+  z-index: 10;
+}
+

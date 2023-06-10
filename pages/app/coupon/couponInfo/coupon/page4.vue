@@ -1,0 +1,82 @@
+<template>
+  <view v-if="couponInfo.brand">
+    <view class="toppart">
+      <image lazy-load="true" class="logo" :src="couponInfo.logo"></image>
+      <view class="brand f16 font333">恭喜您</view>
+      <view class="code_name f20 m-b-20">
+        获得{{ couponInfo.brand }}{{ couponInfo.code_name
+        }}{{ Number(couponInfo.amount) + "元" }}</view
+      >
+
+      <view class="m-t-a-20">
+		<image
+          :src="barCode"
+          style="width: 600rpx; height: 150rpx; margin: 0 auto"
+        ></image>
+        <view class="m-1 f16">
+          {{ couponInfo.code_no }}
+        </view>
+      </view>
+    </view>
+    <view class="dot_line">
+      <view class="round-left"></view>
+      <u-divider dashed lineColor="var(--couponInfoBgc)"></u-divider>
+      <view class="round-right"></view>
+    </view>
+    <view class="botpart">
+      <view class="f14 text-center m-tb-10">
+        有效期至：{{ couponInfo.valid_end ? couponInfo.valid_end : "永久有效" }}
+      </view>
+      <view class="usetip font999 m-b-20 text-center f14">{{
+        couponInfo.use_case
+      }}</view>
+    </view>
+  </view>
+</template>
+
+<script>
+const { barcode, svg2url } = require("pure-svg-code");
+
+export default {
+  name: "page1",
+  components: {},
+  props: ["couponInfo"],
+  data() {
+    return {
+      barCode: "", //条形码
+    };
+  },
+  //下拉刷新，需要自己在page.json文件中配置开启页面下拉刷新 "enablePullDownRefresh": true
+  onPullDownRefresh() {},
+  onPageScroll(e) {},
+  onLoad(e) {},
+  onReady() {},
+  onShow() {},
+  watch: {},
+  created() {
+    //console.log('couponInfo111',this.couponInfo);
+    this.init();
+  },
+  mounted() {
+    // //console.log('couponInfo111',this.couponInfo);
+  },
+  methods: {
+    init() {
+      let _this = this;
+
+      setTimeout(function () {
+        const svgString = barcode(_this.couponInfo.code_no, "code128", {
+          width: "600",
+          barWidth: 1,
+          barHeight: 150,
+        });
+        _this.barCode = svg2url(svgString);
+      }, 500);
+    },
+  },
+};
+</script>
+
+<style scoped lang="scss">
+@import "../couponInfo.scss";
+</style>

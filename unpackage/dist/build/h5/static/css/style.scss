@@ -1,0 +1,705 @@
+@import 'index.scss';
+/* uni.scss */
+// 简化用
+uni-page-body {
+	height: 100%;
+	color: #242424;
+	background-color: #f8f8f8;
+	// padding: 30rpx;
+	font-weight: 400;
+	font-family: my-font-pfjt;
+}
+
+:root{
+	--logincolor:#9784ff;
+}
+.font-fw {
+	font-family: PingFang SC;
+	font-weight: 400;
+}
+.width100 {
+	width: 100%;
+}
+.hauto {
+	height: auto;
+}
+.m-1 {
+	margin: 20upx;
+}
+.m-20 {
+	margin: 40upx;
+}
+.m-15 {
+	margin: 30upx;
+}
+.m-40 {
+	margin: 80upx;
+}
+.m-t-15 {
+	margin: 30rpx auto 0;
+}
+.m-t-a-20 {
+	margin: 40rpx auto 0;
+}
+.m-lr-5 {
+	margin: 0 10rpx;
+}
+.m-lr-10 {
+	margin: 0 20rpx;
+}
+.m-lr-15 {
+	margin: 0 30upx;
+}
+.p-1 {
+	padding: 20upx;
+}
+.p-2 {
+	padding: 40upx;
+}
+.p-15 {
+	padding: 30upx;
+}
+.p-tb-1 {
+	padding: 20upx 0;
+}
+.p-tb-15 {
+	padding: 30upx 0;
+}
+.p-lr-1 {
+	padding: 0 20upx;
+}
+.p-10 {
+	padding: 20upx;
+}
+.p-b-10 {
+	padding-bottom: 20upx;
+}
+.p-t-10 {
+	padding-top: 20upx;
+}
+.p-tb-20 {
+	padding-top: 40upx;
+}
+.p-tb-10 {
+	padding: 20upx 0;
+}
+.p-l-15 {
+	padding-left: 30rpx;
+}
+.p-lr-10 {
+	padding: 0 20upx;
+}
+.p-lr-15 {
+	padding: 0 30upx;
+}
+.p-lr-12 {
+	padding: 24upx 0;
+}
+.p-b-15 {
+	padding-bottom: 30rpx;
+}
+
+.lh-15 {
+	line-height: 1.5;
+}
+
+.lh-2 {
+	line-height: 2;
+}
+.lh-46 {
+	line-height: 92rpx;
+}
+.lh-18 {
+	line-height: 36rpx;
+}
+.lh-24 {
+	line-height: 48rpx;
+}
+.lh-34 {
+	line-height: 68rpx;
+}
+.lh-30 {
+	line-height: 60rpx;
+}
+.lh-3 {
+	line-height: 3;
+}
+.height100 {
+	height: 100%;
+}
+.h100 {
+	height: 100px;
+}
+.w100 {
+	width: 100px;
+}
+.w80 {
+	width: 80px;
+}
+
+.w120 {
+	width: 120px;
+}
+.text-c {
+	text-align: center;
+}
+.text-r {
+	text-align: right;
+}
+.text-l {
+	text-align: left;
+}
+.title {
+	font-size: 30upx;
+}
+.dis-in-b {
+	display: inline-block;
+}
+.f1 {
+	font-size: 28upx;
+}
+.f8 {
+	font-size: 24rpx;
+	transform: scale(0.66);
+}
+.f9 {
+	font-size: 24rpx;
+	transform: scale(0.75);
+}
+.f10 {
+	font-size: 24rpx;
+	transform: scale(0.8);
+}
+.f11 {
+	font-size: 24rpx;
+	transform: scale(0.9);
+}
+.f12 {
+	font-size: 24upx;
+}
+.f13 {
+	font-size: 26upx;
+}
+
+.f14 {
+	font-size: 28rpx;
+}
+
+.f15 {
+	font-size: 30upx;
+}
+.f16 {
+	font-size: 32rpx;
+}
+.f17 {
+	font-size: 34rpx;
+}
+.f18 {
+	font-size: 36rpx;
+}
+.f20 {
+	font-size: 40rpx;
+}
+.f21 {
+	font-size: 42rpx;
+}
+.f22 {
+	font-size: 44upx;
+}
+.f23 {
+	font-size: 46rpx;
+}
+.f24 {
+	font-size: 48rpx;
+}
+.f28 {
+	font-size: 56rpx;
+}
+.fsmall {
+	font-size: 24upx;
+}
+
+.fsmall1 {
+	font-size: 20rpx;
+	transform: scale(0.9);
+}
+.fsmall2 {
+	font-size: 20rpx;
+	transform: scale(0.8);
+}
+.fbig {
+	font-size: 40upx;
+}
+.fw {
+	font-weight: bold;
+}
+.fw500 {
+	font-weight: 500;
+}
+.cmotif {
+	color: var(--logincolor);
+}
+.cinfo {
+	color: #909399;
+}
+.c8585 {
+	color: #858585;
+}
+.c9b9b {
+	color: #9b9b9b;
+}
+.csuccess {
+	color: #67c23a;
+}
+.cblue {
+	color: #409eff;
+}
+.csh{
+	color: #505050;
+}
+.c333 {
+	color: #353535;
+}
+.c999 {
+	color: #999;
+}
+.cred {
+	color: #eb0000;
+}
+
+.cd60 {
+	color: #d60606;
+}
+
+.cB7B {
+	color: #b7b6b6;
+}
+.cfff {
+	color: #fff;
+}
+.cf8 {
+	color: #f8f8f8;
+}
+.br-t {
+	border-top: 2rpx solid #ebeef5;
+}
+.br-b {
+	border-bottom: 2rpx solid #ebeef5;
+}
+.br-r {
+	border-right: 2rpx solid #ebeef5;
+}
+.br5 {
+	border-radius: 10rpx;
+}
+.br10 {
+	border-radius: 20rpx;
+}
+
+.br50 {
+	border-radius: 50%;
+}
+//左上角右上角10px圆角
+.br-tl-tr-10 {
+	border-radius: 20rpx 20rpx 0 0;
+}
+.cbg {
+	background-color: #f5f5f5;
+}
+.bgfff {
+	background-color: #fff;
+}
+.mauto {
+	margin: auto;
+}
+.m-tb-10 {
+	margin: 20upx 0px;
+}
+
+.m-l-15 {
+	margin: 0 0 0 30rpx;
+}
+.cdefult{
+	 color: var(--logincolor);
+}
+.bgdefult{
+	background: linear-gradient(91deg, var(--logincolor-lighten-1), var(--logincolor));
+	// background: linear-gradient(91deg, #9784FF, #6C43E9);
+}
+.bg999linear {
+	// background: linear-gradient(91deg, var(--logincolor), var(--logincolor-darken-1));
+	background: linear-gradient(91deg, #999, #333);
+}
+.bgf8clinear {
+	background: linear-gradient(90deg, #f8ce5a, #f8ac35);
+}
+.btnbig {
+	color: #fff;
+	font-size: 34rpx;
+	padding: 30rpx;
+	border-radius: 60rpx;
+	text-align: center;
+}
+.btnsmall {
+	color: #fff;
+	font-size: 24rpx;
+	width: 100%;
+	padding: 10rpx;
+	border-radius: 60rpx;
+	text-align: center;
+}
+.boxshow1 {
+	box-shadow: 5rpx 5rpx 10rpx 0px #999;
+}
+.m-tb-15 {
+	margin: 15px 0px;
+}
+.m-t-35 {
+	margin: 35upx 0 0 0px;
+}
+.m-t-10 {
+	margin: 20upx 0 0 0px;
+}
+
+.m-l-5 {
+	margin: 0 0 0 10upx;
+}
+.m-t-54 {
+	margin: 54rpx 0 0 0;
+}
+.m-r-15 {
+	margin: 0 15rpx 0 0;
+}
+.m-l-10 {
+	margin: 0 0 0 20upx;
+}
+
+.m-b-10 {
+	margin: 0 0 20rpx 0;
+}
+.m-b-12 {
+	margin: 0 0 24rpx 0;
+}
+.m-b-15 {
+	margin: 0 0 30rpx 0;
+}
+.m-r-10 {
+	margin: 0 20rpx 0 0;
+}
+
+.m-r-5 {
+	margin: 0 10rpx 0 0;
+}
+
+
+.m-b-20 {
+	margin: 0 0 40rpx 0;
+}
+
+.m-b-30 {
+	margin: 0 0 60rpx 0;
+}
+.m-center {
+	padding-bottom: 1.33333rem;
+}
+.bgf8 {
+	background-color: #f8f8f8;
+}
+.bg999 {
+	background-color: #999999;
+}
+.bgdc {
+	background: #dcdcdc;
+}
+.popupbtndiv {
+	text-align: center;
+	font-size: 0.55rem;
+	letter-spacing: 0.1rem;
+	.btn {
+		padding: 0.3rem 0rem;
+		border-bottom: 1px solid #f2f3f5;
+	}
+}
+.gray {
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+	filter: grayscale(100%);
+	filter: gray;
+}
+.custom-image .van-empty__image {
+	width: 60px;
+	height: 60px;
+}
+.more {
+	font-size: 13px;
+}
+
+.zhezhaomodel {
+	width: 100%;
+	height: 100%;
+	background-color: #00000030;
+	z-index: 200;
+	overflow: hidden;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+
+.ellipsis {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.line1{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: box;
+        display: -webkit-box;
+        line-clamp: 1;
+        box-orient: vertical;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        word-break: break-all; 
+}
+.line2 {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: box;
+        display: -webkit-box;
+        line-clamp: 2;
+        box-orient: vertical;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        word-break: break-all;
+}
+.scroll-view_H {
+	white-space: nowrap;
+	width: 100%;
+}
+.score {
+	margin-left: 10rpx;
+	color: #f4a859;
+	font-size: 32rpx;
+	.next-text {
+		font-size: 28rpx;
+	}
+}
+.p-left-right {
+	padding-left: 10rpx;
+	padding-right: 10rpx;
+}
+.uni-tabbar-border {
+	background: none !important;
+	box-shadow: 2px -4px 10px #353535;
+}
+
+.pb120 {
+	padding-bottom: 120rpx;
+}
+
+.flex-space-evenly {
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: column;
+}
+
+.flex-space-between {
+	display: flex;
+	justify-content: space-between;
+}
+.flex-space-between-wrap {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.flex-space-around {
+	display: flex;
+	justify-content: space-around;
+}
+.flex-column-center {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.aic {
+	display: flex;
+	align-items: center;
+}
+.popup-bottom {
+	padding: 40rpx 30rpx;
+	background-color: #fff;
+	border-top-left-radius: 20rpx;
+	border-top-right-radius: 20rpx;
+	.header {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		.title {
+			font-size: 34rpx;
+			font-weight: 400;
+		}
+		.close .icon {
+			font-size: 28rpx;
+			color: #ccc;
+		}
+	}
+	.content {
+		padding: 20rpx 0;
+	}
+	.footer {
+		padding: 20rpx 0;
+	}
+}
+.u-slide-down-enter-active {
+	top: 90rpx !important;
+}
+
+.number-box {
+	/deep/ .u-number-box {
+		.u-number-box__minus,
+		.u-number-box__input,
+		.u-number-box__plus {
+			background: #fff !important;
+			border: 1px solid #cfcfcf;
+		}
+		.u-number-box__input {
+			margin: 0;
+			border: none;
+			border-top: 1px solid #cfcfcf;
+			border-bottom: 1px solid #cfcfcf;
+		}
+	}
+	.errInfo {
+		font-size: 22rpx;
+		color: #ff8b0b;
+	}
+}
+.noList {
+	text-align: center;
+	font-size: 28rpx;
+	margin-top: 200rpx;
+
+	uni-image {
+		width: 375rpx;
+		height: 206rpx;
+	}
+}
+// 图文对齐
+.vertical {
+	vertical-align: middle;
+}
+//选择油号油枪的选项样式
+.allyou {
+	width: 220upx;
+	height: 94upx;
+	background: #f5f4f8;
+	border-radius: 8upx;
+	line-height: 94upx;
+	text-align: center;
+	margin-bottom: 16rpx;
+}
+// 团油筛选样式
+.texttabgs {
+	text-align: center;
+	width: 160rpx;
+	line-height: 56rpx;
+	box-sizing: border-box;
+	margin-right: 20rpx;
+	margin-bottom: 20rpx;
+	border: none;
+	border-radius: 8rpx;
+	background: #f5f4f8;
+	border: 2rpx solid #f5f4f8;
+}
+
+.texttabgs:nth-child(4n) {
+	margin-right: 0;
+}
+
+.active.texttabgs {
+	border: 2rpx solid var(--logincolor);
+	background: #F5F9FF;
+	color: var(--logincolor);
+}
+
+// XD 立即兑换 按钮样式
+.primybtn {
+	width: 100%;
+	background: linear-gradient(91deg, var(--logincolor-lighten-1), var(--logincolor));
+	box-shadow: 0rpx 10rpx 20rpx 0rpx var(--logincolor-lighten-1);
+	border-radius: 44rpx;
+	padding: 25rpx;
+	border: none;
+	color: #ffffff;
+	text-align: center;
+	font-size: 32rpx;
+}
+
+// XD 立即兑换 禁用 按钮样式
+.dis-btn {
+	width: 100%;
+	background: linear-gradient(91deg, #DEDEDE, #B7B7B7);
+	box-shadow: 0rpx 10rpx 20rpx 0rpx rgba(136,136,136,0.45);
+	border-radius: 44rpx;
+	padding: 25rpx;
+	border: none;
+	color: #ffffff;
+	text-align: center;
+	font-size: 32rpx;
+}
+.noMore {
+	text-align: center;
+	font-size: 24rpx;
+	font-family: PingFang SC;
+	font-weight: 400;
+	color: #b7b6b6;
+}
+//xd 个人中心卡片背景圆圈
+.bgPoint {
+	position: absolute;
+	top: 0;
+	left: 46rpx;
+	height: 30rpx;
+	width: 30rpx;
+	border-radius: 50%;
+	background-color: var(--logincolor);
+	opacity: 0.3;
+}
+
+//xd 水平居中
+.pcX {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.pcY {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+//团油 按钮组
+.olingbtnlist {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+	border-top: 1px solid #f5f5f5;
+	.oil_btn_c {
+		background-color: #fff;
+		color: #999;
+		font-size: 30rpx;
+		padding: 25rpx 0;
+	}
+	.oil_btn_s {
+		background-color: var(--logincolor);
+		color: #fff;		
+		font-size: 30rpx;
+		padding: 25rpx 0;
+	}
+}

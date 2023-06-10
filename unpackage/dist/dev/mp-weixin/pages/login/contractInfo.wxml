@@ -1,0 +1,1 @@
+<view class="contract-info p-15 data-v-30591aff"><block wx:if="{{urlString}}"><text class="html-text-box data-v-30591aff"><rich-text nodes="{{urlString}}"></rich-text></text></block></view>
